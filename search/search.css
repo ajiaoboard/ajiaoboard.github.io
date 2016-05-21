@@ -1,0 +1,24 @@
+.search-box {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.25em;
+    font-family: Arial, 微软雅黑;
+    border: 1px solid #ddd;
+    transition: border 0.2s ease-in-out;
+}
+.search-box:focus {
+    border: 1px solid #3a9cd9;
+}
+.search-button {
+    background-color: #3a9cd9;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25em;
+    font-family: Arial, 微软雅黑;
+}
+table {
+    table-layout: fixed;
+    margin: auto;
+    border-spacing: 20px 10px;
+}
