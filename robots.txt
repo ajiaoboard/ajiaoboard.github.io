@@ -1,0 +1,111 @@
+User-agent: Baiduspider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Baiduspider-image
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Baiduspider-video
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Baiduspider-news
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou spider2
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou blog
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou News Spider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sogou Orion spider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: ChinasoSpider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: Sosospider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: yisouspider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: EasouSpider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: JikeSpider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: HaosouSpider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /t/
+Disallow: /r/
+Disallow: /
+
+User-agent: bingbot
+Disallow: /large*/
+
+User-agent: BingPreview
+Disallow: /large*/
+
+User-Agent: msnbot
+Disallow: /large*/
+
+User-Agent: Slurp
+User-Agent: Yahoo! Slurp
+Disallow: /large*/
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: *
+Disallow: /

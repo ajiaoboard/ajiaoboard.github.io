@@ -1,0 +1,117 @@
+body {
+    background-color: #F8F8F8;
+    font-family: Arial, 微软雅黑;
+}
+.title {
+    text-align: center;
+    margin: 20px;
+    font-family: 宋体;
+    font-size: 36px;
+    min-width: 315px;
+}
+.center-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    min-width: 315px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+.block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.indent {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.thread {
+    background-color: #F8F8F8;
+}
+.reply {
+    background-color: #FFFFEE;
+    border: 1px solid #ddd;
+}
+.author {
+    margin-bottom: 10px;
+    color: #8e8785;
+}
+.author-reverse {
+    margin-top: 10px;
+    color: #8e8785;
+}
+.warning {
+    box-shadow: 0px 0px 6px red;
+}
+.path a {
+    color: inherit
+}
+.pages a {
+    white-space: nowrap;
+}
+.faint {
+    opacity: 0.25;
+    animation-duration: 0.5s;
+    animation-name: disappear;
+}
+.faint:hover {
+    opacity: 1;
+    animation-duration: 0.5s;
+    animation-name: appear;
+}
+a {
+    text-decoration: none;
+}
+.grey-link {
+    color: rgba(127, 127, 127, 0.50);
+    font-size: 75%;
+}
+.blue-link {
+    color: blue;
+}
+#homepage {
+    color: inherit;
+}
+.author > a:not(.blue-link),
+.author-reverse > a:not(.blue-link) {
+    color: inherit;
+}
+code {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, 微软雅黑;
+}
+.img {
+    float: left;
+    margin-right: 10px;
+    max-height: 250px;
+    max-width: 250px;
+}
+@media (max-width: 538px) {
+    .img {
+        max-height: 125px;
+        max-width: 125px;
+    }
+}
+@keyframes appear {
+    0% {
+        opacity: 0.25;
+    }
+    65% {
+        opacity: 1;
+    }
+}
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    13% {
+        opacity: 1;
+    }
+    65% {
+        opacity: 0.25;
+    }
+}

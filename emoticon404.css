@@ -1,0 +1,49 @@
+div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.emoticon {
+    margin: 13%;
+    font-size: 72px;
+}
+@media (max-width: 660px) {
+    .emoticon {
+        font-size: 10vw;
+    }
+}
+span {
+    display: inline-block;
+}
+.error-code {
+    transform: rotate(190deg);
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: flipover;
+}
+.hand,
+.wave {
+    animation-duration: 3s;
+    animation-name: fadein;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    38% {
+        opacity: 1;
+    }
+}
+@keyframes flipover {
+    0% {
+        transform: rotate(0deg);
+    }
+    33% {
+        transform: rotate(0deg);
+    }
+    51% {
+        transform: rotate(190deg);
+    }
+}
