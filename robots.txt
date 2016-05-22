@@ -107,5 +107,8 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: duckduckbot
+Allow: /
+
 User-agent: *
 Disallow: /
