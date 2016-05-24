@@ -124,6 +124,3 @@ Allow: /
 User-agent: duckduckbot
 Disallow:
 Allow: /
-
-User-agent: *
-Disallow: /
