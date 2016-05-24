@@ -8,6 +8,8 @@
         [/(.+)菌/g, "$1君"]
     ];
 
+    stupidChrome();
+
     addAdditionalTags();
 
     searchBox = document.getElementById('search-box');
@@ -29,6 +31,12 @@
 
     checkHash();
 })();
+
+function stupidChrome() {
+    if (HTMLCollection.prototype[Symbol.iterator] == undefined) {
+        HTMLCollection.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+    }
+}
 
 function changeHash(keyword) {
     if (!isNonsense(keyword)) {
@@ -135,7 +143,7 @@ function searchTrs(keyword, subBlock) {
             return e != "";
         });
 
-        innerText = tr.innerText.toLowerCase();
+        innerText = tr.textContent.toLowerCase();
 
         rank = 0;
 

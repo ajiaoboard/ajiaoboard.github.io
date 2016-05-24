@@ -90,24 +90,39 @@ Disallow: /
 
 User-agent: bingbot
 Disallow: /large*/
+Allow: /*.html$
+Allow: /*.js$
+Allow: /*.css$
 
 User-agent: BingPreview
 Disallow: /large*/
+Allow: /*.html$
+Allow: /*.js$
+Allow: /*.css$
 
 User-Agent: msnbot
 Disallow: /large*/
+Allow: /*.html$
+Allow: /*.js$
+Allow: /*.css$
 
 User-Agent: Slurp
 User-Agent: Yahoo! Slurp
 Disallow: /large*/
+Allow: /*.html$
+Allow: /*.js$
+Allow: /*.css$
 
 User-agent: archive.org_bot
+Disallow:
 Allow: /
 
 User-agent: Googlebot
+Disallow:
 Allow: /
 
 User-agent: duckduckbot
+Disallow:
 Allow: /
 
 User-agent: *
