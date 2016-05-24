@@ -77,6 +77,9 @@ a {
 #homepage {
     color: inherit;
 }
+.title a {
+    color: inherit;
+}
 .author > a:not(.blue-link),
 .author-reverse > a:not(.blue-link) {
     color: inherit;

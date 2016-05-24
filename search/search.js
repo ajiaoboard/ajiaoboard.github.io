@@ -1,5 +1,6 @@
 (function () {
     document.getElementById('homepage').href = switchToHttps(createHiddenElement("/").href);
+    document.getElementById('search-all').href = switchToHttps(createHiddenElement("").href);
 
     window.Synonyms = [
         [/老*综(1|一)/g, "综合"],
